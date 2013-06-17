@@ -1,0 +1,11 @@
+rild.libpath=/system/lib/hw/libril.apple.so
+rild.libargs=
+android.keylayout.gpio-keys=/system/usr/keylayout/gpio-keys.kl
+android.keychar.gpio-keys=/system/usr/keychars/gpio-keys.kcm
+wifi.interface=wlan0
+ro.ril.enable.3g.prefix=1
+ro.ril.oem.nosim.ecclist=911,112,113,115,117,999,000,08,118,120,122,110,119,995
+ro.ril.emc.mode=2
+ro.ril.hsxpa=2
+ro.ril.gprsclass=12
+ro.sf.lcd_density=140
