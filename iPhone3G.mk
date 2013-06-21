@@ -30,9 +30,9 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/apple/overlay/mbxlite
 
 # Keylayout
 PRODUCT_COPY_FILES += \
-	$(LOCAL_DIR)gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
-	$(LOCAL_DIR)asound.conf:system/etc/asound.conf \
-	$(LOCAL_DIR)asound.state:system/etc/asound.state
+	$(LOCAL_PATH)gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
+	$(LOCAL_PATH)asound.conf:system/etc/asound.conf \
+	$(LOCAL_PATH)asound.state:system/etc/asound.state
 	
 
 
