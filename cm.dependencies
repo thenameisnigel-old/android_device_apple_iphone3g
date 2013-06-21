@@ -1,0 +1,14 @@
+[
+    {
+        "repository": "android_device_apple_iphone-common",
+        "target_path": "device/apple/iphone-common"
+    },
+    {
+        "repository": "android_hardware_apple",
+        "target_path": "hardware/apple"
+    },
+    {
+        "repository": "android_kernel_apple_idevice",
+        "target_path": "kernel/apple/idevice"
+    }
+]
