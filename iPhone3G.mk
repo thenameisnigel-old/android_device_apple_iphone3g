@@ -1,4 +1,4 @@
-# Copyright (C) 2010 The Android Open Source Project
+# Copyright (C) 2013 Norris Enterprises / Project Open Cannibal / CyanogenMod Team
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -13,6 +13,8 @@
 # limitations under the License.
 
 LOCAL_PATH := device/apple/iphone3g
+
+$(call inherit-product, device/apple/iphone-common/common.mk
 
 ifeq ($(TARGET_BUILD_TYPE),debug)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/sdk.mk)
@@ -34,4 +36,4 @@ PRODUCT_COPY_FILES += \
 	
 
 
-$(call inherit-product, device/apple/iphone-common/common
+
