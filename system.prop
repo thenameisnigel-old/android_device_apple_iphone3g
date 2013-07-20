@@ -1,5 +1,5 @@
 #
-# system for iphone3g
+# system prop for iphone3g
 $
 
 ro.ril.enable.3g.prefix=1
